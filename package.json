@@ -13,6 +13,13 @@
     "postinstall": "webpack",
     "heroku-postbuild": "webpack -p"
   },
+  "scripts": {
+  "dev": "webpack -d --watch",
+  "start": "node ./server/index.js",
+  "build": "webpack -p",
+  "react-dev": "webpack -d --watch",
+  "server-dev": "nodemon server/index.js"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -26,6 +33,7 @@
     "react-dom": "^15.6.1",
     "react-router": "^4.1.2",
     "react-router-dom": "^4.1.2",
+    "surge": "^0.20.1",
     "webpack": "^3.12.0"
   },
   "postinstall": "webpack",
