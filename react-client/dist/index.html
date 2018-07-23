@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Font+Name" />
+
+<div class = "container-fluid">
  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <div class = "row">
 <head>
   <title>Brett</title>
   <link rel="stylesheet" href="styles.css">
@@ -10,25 +16,30 @@
 <header class = "sticky w3-top">
     <div margin-left:"auto" margin-right:0 ">
     <h  class = "coralFont"> Brett Davis </h>
-    <button  class = "headerButtons"> Home </button>
-    <button  class = "headerButtons"> About </button>
-    <button  class = "headerButtons"> Projects </button>
+    <a href="#home"><button  class = "headerButtons"> Home </button>
+    <a href="#aboutMe"><button  class = "headerButtons"> About </button>
+    <a href="#projects"><button  class = "headerButtons"> Projects </button></a>
     <a href = "Brett Davis Resume.pdf"> <button class = "headerButtons"> Resume/CV </button> </a>
   </div>
 </header>
+</div>
 
+<div class = "row">
 <body background-color="orange">
   <div id = "Container">
 <script type="text/javascript" src="bundle.js"></script>
-<div class = "textblock">
+<div id = "home" class = "textblock">
   <img class="helsinki" align = "middle" src="helsinki.jpg">
+</div>
 
+<div class = "row textblock">
   <p style="font-size:4vw;"> A Brief Introduction </p>
-  <p> My name's Brett. </p>
+  <p> My name is Brett. </p>
   <p> I'm an undergraduate CS Major at Georgia Tech with a German Minor. </p>
   <p> My interests lie in Human-Computer Interaction and Artificial Intelligence.</p>
   <p> My goal is to use technology to improve people's day-to-day lives. </p>
   <p margin = 0px> This website was built with the following tools: </p>
+
   <div>
     <img class = "logo2" src = "css.png">
     <img class = "logo2" src = "react.png">
@@ -37,8 +48,8 @@
   </div>
 </div>
 
-<div display: in-line-block; margin: 0 0 0px; padding-bottom = 10px; class = "textblock">
-  <p style="font-size:4vw;"> Projects</p>
+<div id ="projects" display: in-line-block; margin: 0 0 0px; padding-bottom = 1%; class = "row textblock">
+  <p margin-top=2% style="font-size:4vw;"> Projects</p>
   <p> Chatbot </p>
   <p> WishList App </p>
   <p> Icon Based Asthma Action Plan</p>
@@ -46,22 +57,24 @@
   <p2> Codepen/Lynda paths </p2>
 </div>
 
-<!-- <div><hr></hr></div>
- -->
-<div margin : 0 0 0px class = "textblock">
-  <p style="font-size:4vw;"> About Me </p>
+
+<div id = "aboutMe" margin : 0 0 0px class = "row textblock">
+  <p style="font-size:4vw;"> About Me </font></p>
   <p2> I'm from Pittsburgh, Pennsylvania ;)
       </p2>
 </div>
+</div>
 
 </body>
+
+<div class = "row footerImages">
 <footer class = "w3-top">
-  <div class = "footerImages">
+  
     <a href = "https://www.linkedin.com/in/brett-davis-a49905a4/"> <img class = "logo" src="linkedin.jpg"> </a>
     <a href = "https://github.com/brett7davis"> <img class = "logo" src="octocat.jpg"> </a>
     <a href =  "mailto:brett7davis@gmail.com" > <img class = "logo" src="mail.jpg"> </a>
     <a href = "https://www.duolingo.com/brett.spiel"> <img class = "logo" src="duo.jpg"> </a>
-</div>
-</div>
 </footer>
+</div>
+
 </html>
