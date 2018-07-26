@@ -153,11 +153,11 @@ footer {
   min-width:100%;
 }
 
-.thin-border {
+/*.thin-border {
   border-color: lemonchiffon;
   border-width: 5px;
   border-style: solid;
-}
+}*/
 
 .info {
   padding-bottom: 3%;
