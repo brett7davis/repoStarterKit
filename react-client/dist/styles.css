@@ -19,7 +19,6 @@ hr{
 
 p {
   font-size: 2.5vw;
-  /*margin:0 0 0px;*/
   padding-bottom: 2%;
   margin-left: 3%;
   margin-right: 3%
@@ -27,7 +26,7 @@ p {
 
 p2 {
     margin:0 0 0px;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-color: white;
     padding-bottom: 10%;
     background-color: tomato;
@@ -160,9 +159,21 @@ footer {
   border-style: solid;
 }
 
+.info {
+  padding-bottom: 3%;
+}
+
+.break {
+  padding-top: 5%;
+}
+
+.buttonDestination {
+  padding-top: 5%;
+}
+
 .sibeliusImg {
-  width: 100%;
-  height:100%;
+  width: 120%;
+  height: 120%;
 }
 
 .w3-Bottom {
@@ -170,9 +181,8 @@ footer {
 }
 
 .aboutImg {
-  padding-bottom:10%;
   width: 180%;
-  height: 180%;
+  height: auto;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -183,7 +193,7 @@ footer {
   width: 100%
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* Add some top padding to the page content to devent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 10%;
 }
